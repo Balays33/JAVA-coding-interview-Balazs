@@ -22,12 +22,14 @@ public class JavaCodingInterview {
         
          int menuNumber;
          TwoSum twoSum = new TwoSum();
+         MaxConsecutiveOnes maxConsecutiveOnes = new MaxConsecutiveOnes();
          
          
           do {
             System.out.println("\n Please choose which program would you like to run :");
             System.out.println("666: Help test menu");
             System.out.println("1: Two Sum"); 
+            System.out.println("2: Max Consecutive Ones");
             
              
             System.out.println("0: EXIT");
@@ -46,7 +48,11 @@ public class JavaCodingInterview {
                             int twoSumtarget = 9;
                             twoSum.solution(twoSumNums, twoSumtarget);
                             break;
-                         
+                        case 2:
+                            //int[] maxConsecutiveOnesInput = {1,1,0,1,1,1};
+                            int[] maxConsecutiveOnesInput = {1,1,0,1,1,1,0,1,1,1,1,1,1,0,0,0,1,1,1};
+                            maxConsecutiveOnes.solution(maxConsecutiveOnesInput);
+                            break;
                         default:
                             System.exit(0);
                     }
