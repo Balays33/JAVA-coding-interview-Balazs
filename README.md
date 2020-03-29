@@ -71,20 +71,20 @@ I have solved quite a number of problems from several topics. See the below tabl
 
 1. Two Sum
 
-  Given an array of integers, return indices of the two numbers such that they add up to a specific target.
+    Given an array of integers, return indices of the two numbers such that they add up to a specific target.
 
-  You may assume that each input would have exactly one solution, and you may not use the same element twice.
+    You may assume that each input would have exactly one solution, and you may not use the same element twice.
 
-  Example:
+    Example:
 
-  Given nums = [2, 7, 11, 15], target = 9,
+    Given nums = [2, 7, 11, 15], target = 9,
 
-  Because nums[0] + nums[1] = 2 + 7 = 9, return [0, 1]
+    Because nums[0] + nums[1] = 2 + 7 = 9, return [0, 1]
 
 2. Max Consecutive Ones
 
-  Given a binary array, find the maximum number of consecutive 1s in this array.
+    Given a binary array, find the maximum number of consecutive 1s in this array.
 
-  Example 1: Input: [1,1,0,1,1,1] Output: 3 Explanation: The first two digits or the last three digits are consecutive 1s. The maximum number of consecutive 1s is 3. Note:
+    Example 1: Input: [1,1,0,1,1,1] Output: 3 Explanation: The first two digits or the last three digits are consecutive 1s. The maximum number of consecutive 1s is 3. Note:
 
-  The input array will only contain 0 and 1. The length of input array is a positive integer and will not exceed 10,000
+    The input array will only contain 0 and 1. The length of input array is a positive integer and will not exceed 10,000
