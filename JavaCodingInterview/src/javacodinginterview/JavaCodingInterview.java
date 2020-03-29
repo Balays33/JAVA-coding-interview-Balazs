@@ -23,6 +23,7 @@ public class JavaCodingInterview {
          int menuNumber;
          TwoSum twoSum = new TwoSum();
          MaxConsecutiveOnes maxConsecutiveOnes = new MaxConsecutiveOnes();
+         NumberComplement numberComplement = new NumberComplement();
          
          
           do {
@@ -30,6 +31,7 @@ public class JavaCodingInterview {
             System.out.println("666: Help test menu");
             System.out.println("1: Two Sum"); 
             System.out.println("2: Max Consecutive Ones");
+            System.out.println("3: Number Complement");
             
              
             System.out.println("0: EXIT");
@@ -52,6 +54,11 @@ public class JavaCodingInterview {
                             //int[] maxConsecutiveOnesInput = {1,1,0,1,1,1};
                             int[] maxConsecutiveOnesInput = {1,1,0,1,1,1,0,1,1,1,1,1,1,0,0,0,1,1,1};
                             maxConsecutiveOnes.solution(maxConsecutiveOnesInput);
+                            break;
+                        case 3:
+                            int numberComplementNumber = 5;
+                            numberComplement.solution(numberComplementNumber);
+                            
                             break;
                         default:
                             System.exit(0);
