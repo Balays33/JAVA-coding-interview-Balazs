@@ -13,8 +13,6 @@ help from : https://github.com/partho-maple/coding-interview-gym
   This repo contains my solutions to algorithmic problems in <a href="https://leetcode.com/parthobiswas007/">leetcode.com</a> and <a href="https://www.algoexpert.io/questions">algoexpert.io</a> written in <b>Java</b> and <b>Python</b>.
  
 
-<h4 align="center">Show your support by giving it a STAR</h4>
-
 <p align="center">
   <a href="#About">About</a> •
   <a href="#Topics">Topics</a> •
@@ -59,18 +57,7 @@ I have solved quite a number of problems from several topics. See the below tabl
 - Interviews
 - ...
 
-## My other related repos
 
-- [Coding Interview Patterns](https://tinyurl.com/wluap5j)
-- [Coding Interview Gym](https://tinyurl.com/wt2dbym)
-- [iOS Interview Gym](https://tinyurl.com/wt5vyzq)
-- [Behavioural Interview Gym](https://tinyurl.com/v65wlwf)
-- [System Design Interview Gym](https://tinyurl.com/tr2xkze)
-- [Object Oriented Design Interview Gym](https://tinyurl.com/uhlp9sc)
-
-## My leetcode account
-
-- [ParthoBiswas007](https://leetcode.com/ParthoBiswas007/)
 
 ## Tips
 
