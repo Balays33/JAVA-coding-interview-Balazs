@@ -3,11 +3,7 @@ JAVA-coding-interview-Balazs
 help from : https://github.com/partho-maple/coding-interview-gym
 
 
-<h1 align="center">
-  <br>
-  <a href="https://github.com/partho-maple/coding-interview-gym/archive/master.zip"><img src="leetcode.png"></a>
-  <a href="https://github.com/partho-maple/coding-interview-gym/archive/master.zip"><img src="algoexpert.png"></a>
-</h1>
+
 
 [![GitHub last commit][last-commit-shield]][last-commit-url]
 [![GitHub repo size in bytes][repo-size-shield]][repo-size-url]
