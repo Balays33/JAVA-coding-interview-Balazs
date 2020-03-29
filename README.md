@@ -5,20 +5,6 @@ help from : https://github.com/partho-maple/coding-interview-gym
 
 
 
-[![GitHub last commit][last-commit-shield]][last-commit-url]
-[![GitHub repo size in bytes][repo-size-shield]][repo-size-url]
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-[![leetcode badge](https://leetcode-badge.chyroc.cn/?name=ParthoBiswas007&leetcode_badge_style=leetcode%20|%20solved/total-{{.solved_question}}/{{.all_question}}-{{if%20le%20.solved_question_rate_float%200.3}}red.svg{{else%20if%20le%20.solved_question_rate_float%200.5}}yellow.svg{{else}}green.svg{{end}}&refresh=true)](https://leetcode.com/ParthoBiswas007/)
-[![leetcode badge](https://leetcode-badge.chyroc.cn/?name=ParthoBiswas007&leetcode_badge_style=leetcode%20|%20submission-{{.accepted_submission_rate}}-{{%20if%20le%20.accepted_submission_rate_float%200.3}}red{{%20else%20if%20le%20.solved_question_rate_float%200.6}}green{{%20else%20}}yellow{{%20end%20}}.svg&refresh=true)](https://leetcode.com/ParthoBiswas007/)
-[![Travis](https://img.shields.io/badge/language-Swift-green.svg)]()
-[![Travis](https://img.shields.io/badge/language-Python-red.svg)]()
-![Total visitor](https://visitor-count-badge.herokuapp.com/total.svg?repo_id=69802909)
-![Visitors in today](https://visitor-count-badge.herokuapp.com/today.svg?repo_id=az69802909)
 
 
 <h4 align="center">This repo contains around 300 Leetcode.com and 85 Algoexpert.io problems with solutions using Swift and Python</h4>
