@@ -10,10 +10,8 @@ help from : https://github.com/partho-maple/coding-interview-gym
 <h4 align="center">This repo contains around 300 Leetcode.com and 85 Algoexpert.io problems with solutions using Swift and Python</h4>
 
 <p align="center">
-  This repo contains my solutions to algorithmic problems in <a href="https://leetcode.com/parthobiswas007/">leetcode.com</a> and <a href="https://www.algoexpert.io/questions">algoexpert.io</a> written in <b>Swift</b> and <b>Python</b>.
-  </br>
-  Here is my <a href="https://leetcode.com/parthobiswas007/">leetcode profile</a>. 
-</p>
+  This repo contains my solutions to algorithmic problems in <a href="https://leetcode.com/parthobiswas007/">leetcode.com</a> and <a href="https://www.algoexpert.io/questions">algoexpert.io</a> written in <b>Java</b> and <b>Python</b>.
+ 
 
 <h4 align="center">Show your support by giving it a STAR</h4>
 
