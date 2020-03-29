@@ -82,7 +82,7 @@ I have solved quite a number of problems from several topics. See the below tabl
 
 | #  | Title | Solution | Tutorial | Level | Remarks |
 | --- | --- | --- | --- | --- | --- |
-|01| [1. Two Sum](https://leetcode.com/problems/two-sum/)| [Python](https://tinyurl.com/wu6rdaw/1_Two_Sum.py), [Swift](https://tinyurl.com/to2yjbw/leetcode.com/swift/1_Two_Sum.swift) | --- | --- | ✅ 📌 ⭐ 😭 🧐 😎 |
+|01| [1. Two Sum](https://leetcode.com/problems/two-sum/)| [Python](https://tinyurl.com/wu6rdaw/1_Two_Sum.py)
 |02| [485. Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)| [Swift](https://tinyurl.com/to2yjbw/leetcode.com/swift/485_Max_Consecutive_Ones.swift)|
 |03| [476. Number Complement](https://leetcode.com/problems/number-complement/)| [Swift](https://tinyurl.com/to2yjbw/leetcode.com/swift/476_Number_Complement.swift)|
 |04| [461. Hamming Distance](https://leetcode.com/problems/hamming-distance/)| [Swift](https://tinyurl.com/to2yjbw/leetcode.com/swift/461_Hamming_Distance.swift)|
