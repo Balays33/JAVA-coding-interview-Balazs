@@ -82,17 +82,17 @@ I have solved quite a number of problems from several topics. See the below tabl
 
 | #  | Title | Solution | Tutorial | Level | Remarks |
 | --- | --- | --- | --- | --- | --- |
-|01| [1. Two Sum](https://leetcode.com/problems/two-sum/)| [Python](https://tinyurl.com/wu6rdaw/1_Two_Sum.py)
-|02| [485. Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)| [Swift](https://tinyurl.com/to2yjbw/leetcode.com/swift/485_Max_Consecutive_Ones.swift)|
-|03| [476. Number Complement](https://leetcode.com/problems/number-complement/)| [Swift](https://tinyurl.com/to2yjbw/leetcode.com/swift/476_Number_Complement.swift)|
-|04| [461. Hamming Distance](https://leetcode.com/problems/hamming-distance/)| [Swift](https://tinyurl.com/to2yjbw/leetcode.com/swift/461_Hamming_Distance.swift)|
-|05| [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/)| [Python](https://tinyurl.com/wu6rdaw/9_Palindrome_Number.py)|
-|06| [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)| [Python](https://tinyurl.com/wu6rdaw/88_Merge_Sorted_Array.py)|
-|07| [811. Subdomain Visit Count](https://leetcode.com/problems/subdomain-visit-#/)| [Python](https://tinyurl.com/wu6rdaw/811_Subdomain_Visit_Count.py)|
-|08| [771. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)| [Python](https://tinyurl.com/wu6rdaw/771_Jewels_and_Stones.py)|
-|09| [414. Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)| [Python](https://tinyurl.com/wu6rdaw/414_Third_Maximum_Number.py)|
-|10| [259. 3Sum Smaller](https://leetcode.com/problems/3sum-smaller/)| [Python](https://tinyurl.com/wu6rdaw/259_3Sum_Smaller.py)|
-|11| [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/)| [Python](https://tinyurl.com/wu6rdaw/16_3Sum_Closest.py)|
+|01| [1. Two Sum](https://leetcode.com/problems/two-sum/)
+|02| [485. Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)
+|03| [476. Number Complement](https://leetcode.com/problems/number-complement/
+|04| [461. Hamming Distance](https://leetcode.com/problems/hamming-distance/)
+|05| [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/)
+|06| [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
+|07| [811. Subdomain Visit Count](https://leetcode.com/problems/subdomain-visit-#/)
+|08| [771. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)
+|09| [414. Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)
+|10| [259. 3Sum Smaller](https://leetcode.com/problems/3sum-smaller/)
+|11| [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/)|
 |12| [15. 3Sum](https://leetcode.com/problems/3sum/)| [Python](https://tinyurl.com/wu6rdaw/15_3Sum.py)|
 |13| [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)| [Python](https://tinyurl.com/wu6rdaw/118_Pascal's_Triangle.py)|
 |14| [119. Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)| [Python](https://tinyurl.com/wu6rdaw/119_Pascal's_Triangle_II.py)|
