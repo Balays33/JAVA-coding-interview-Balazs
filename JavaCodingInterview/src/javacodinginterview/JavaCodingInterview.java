@@ -24,6 +24,7 @@ public class JavaCodingInterview {
          TwoSum twoSum = new TwoSum();
          MaxConsecutiveOnes maxConsecutiveOnes = new MaxConsecutiveOnes();
          NumberComplement numberComplement = new NumberComplement();
+         HammingDistance hammingDistance = new HammingDistance();
          
          
           do {
@@ -32,6 +33,7 @@ public class JavaCodingInterview {
             System.out.println("1: Two Sum"); 
             System.out.println("2: Max Consecutive Ones");
             System.out.println("3: Number Complement");
+            System.out.println("4: Hamming Distance");
             
              
             System.out.println("0: EXIT");
@@ -58,7 +60,11 @@ public class JavaCodingInterview {
                         case 3:
                             int numberComplementNumber = 5;
                             numberComplement.solution(numberComplementNumber);
-                            
+                            break;
+                        case 4:
+                            int hammingInput = 11;
+                            int hammingInput2 = 23;
+                            hammingDistance.solution(hammingInput, hammingInput2);
                             break;
                         default:
                             System.exit(0);
