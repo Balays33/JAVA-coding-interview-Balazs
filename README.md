@@ -109,3 +109,25 @@ I have solved quite a number of problems from several topics. See the below tabl
     The given integer is guaranteed to fit within the range of a 32-bit signed integer.
     You could assume no leading zero bit in the integer’s binary representation.
     This question is the same as 1009: https://leetcode.com/problems/complement-of-base-10-integer/
+    
+4.   Hamming Distance
+
+      The Hamming distance between two integers is the number of positions at which the corresponding bits are different.
+
+      Given two integers x and y, calculate the Hamming distance.
+
+      Note:
+      0 ≤ x, y < 231.
+
+      Example:
+
+      Input: x = 1, y = 4
+
+      Output: 2
+
+      Explanation:
+      1   (0 0 0 1)
+      4   (0 1 0 0)
+             ↑   ↑
+
+      The above arrows point to positions where the corresponding bits are different.
