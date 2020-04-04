@@ -25,6 +25,7 @@ public class JavaCodingInterview {
          MaxConsecutiveOnes maxConsecutiveOnes = new MaxConsecutiveOnes();
          NumberComplement numberComplement = new NumberComplement();
          HammingDistance hammingDistance = new HammingDistance();
+         PalindromeNumber palindromeNumber = new PalindromeNumber();
          
          
           do {
@@ -34,6 +35,8 @@ public class JavaCodingInterview {
             System.out.println("2: Max Consecutive Ones");
             System.out.println("3: Number Complement");
             System.out.println("4: Hamming Distance");
+            System.out.println("5: Palindrome Number");
+            
             
              
             System.out.println("0: EXIT");
@@ -65,6 +68,10 @@ public class JavaCodingInterview {
                             int hammingInput = 11;
                             int hammingInput2 = 23;
                             hammingDistance.solution(hammingInput, hammingInput2);
+                            break;
+                        case 5:
+                            int palindromeNumberN = 121;
+                            palindromeNumber.solution(palindromeNumberN);
                             break;
                         default:
                             System.exit(0);
