@@ -26,6 +26,7 @@ public class JavaCodingInterview {
          NumberComplement numberComplement = new NumberComplement();
          HammingDistance hammingDistance = new HammingDistance();
          PalindromeNumber palindromeNumber = new PalindromeNumber();
+         MergeSortedArray mergeSortedArray = new MergeSortedArray();
          
          
           do {
@@ -36,7 +37,7 @@ public class JavaCodingInterview {
             System.out.println("3: Number Complement");
             System.out.println("4: Hamming Distance");
             System.out.println("5: Palindrome Number");
-            
+            System.out.println("6: Merge Sorted Array");
             
              
             System.out.println("0: EXIT");
@@ -73,6 +74,10 @@ public class JavaCodingInterview {
                             int palindromeNumberN = 121;
                             palindromeNumber.solution(palindromeNumberN);
                             break;
+                        case 6:
+                            int[] mergeSortedArrayM = {1,2,3};
+                            int[] mergeSortedArrayN = {2,5,6};
+                            mergeSortedArray.solution(mergeSortedArrayM,mergeSortedArrayN);
                         default:
                             System.exit(0);
                     }
