@@ -27,6 +27,7 @@ public class JavaCodingInterview {
          HammingDistance hammingDistance = new HammingDistance();
          PalindromeNumber palindromeNumber = new PalindromeNumber();
          MergeSortedArray mergeSortedArray = new MergeSortedArray();
+         JewelsandStones jewelsandStones = new JewelsandStones();
          
          
           do {
@@ -38,6 +39,8 @@ public class JavaCodingInterview {
             System.out.println("4: Hamming Distance");
             System.out.println("5: Palindrome Number");
             System.out.println("6: Merge Sorted Array");
+            System.out.println("7: Jewels and Stones");
+            
             
              
             System.out.println("0: EXIT");
@@ -78,6 +81,10 @@ public class JavaCodingInterview {
                             int[] mergeSortedArrayM = {1,2,3};
                             int[] mergeSortedArrayN = {2,5,6};
                             mergeSortedArray.solution(mergeSortedArrayM,mergeSortedArrayN);
+                        case 7:
+                            String jewelsandStonesJ = "aA";
+                            String jewelsandStonesS =  "aAAbbbb";  
+                            jewelsandStones.solution(jewelsandStonesJ,jewelsandStonesS);
                         default:
                             System.exit(0);
                     }
