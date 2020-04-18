@@ -203,7 +203,7 @@ I have solved quite a number of problems from several topics. See the below tabl
       [-1, 0, 1],
       [-1, -1, 2]
     ]
-9. 118. Pascal's Triangle
+9. Pascal's Triangle
 
       Given a non-negative integer numRows, generate the first numRows of Pascal's triangle.
 
