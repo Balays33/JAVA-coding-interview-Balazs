@@ -28,6 +28,9 @@ public class JavaCodingInterview {
          PalindromeNumber palindromeNumber = new PalindromeNumber();
          MergeSortedArray mergeSortedArray = new MergeSortedArray();
          JewelsandStones jewelsandStones = new JewelsandStones();
+         The3Sum the3Sum = new The3Sum();
+         PascalsTriangle pascalsTriangle = new PascalsTriangle();
+         ProductofArrayExceptSelf productofArrayExceptSelf = new ProductofArrayExceptSelf();
          
          
           do {
@@ -40,6 +43,9 @@ public class JavaCodingInterview {
             System.out.println("5: Palindrome Number");
             System.out.println("6: Merge Sorted Array");
             System.out.println("7: Jewels and Stones");
+            System.out.println("8: 3Sum");
+            System.out.println("9: Pascal`s Triangle");
+            System.out.println("10: Product of Array Except Self");
             
             
              
@@ -85,6 +91,20 @@ public class JavaCodingInterview {
                             String jewelsandStonesJ = "aA";
                             String jewelsandStonesS =  "aAAbbbb";  
                             jewelsandStones.solution(jewelsandStonesJ,jewelsandStonesS);
+                        case 8:
+                            int[] the3Sumnums = {-1, 0, 1, 2, -1, -4};
+                            the3Sum.solution(the3Sumnums);
+                            break;
+                        case 9:
+                            int pascalsTriangleN = 5;
+                            pascalsTriangle.generate(pascalsTriangleN);
+                            break;
+                        case 10:
+                            //int[] productofArrayExceptSelfN = {1,2,3,4};
+                            int[] productofArrayExceptSelfN = {4,5,1,8,2};
+                            productofArrayExceptSelf.productExceptSelf(productofArrayExceptSelfN);
+                            productofArrayExceptSelf.productExceptSelf2(productofArrayExceptSelfN);
+                            break;
                         default:
                             System.exit(0);
                     }
