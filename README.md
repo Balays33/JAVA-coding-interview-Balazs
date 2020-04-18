@@ -185,3 +185,53 @@ I have solved quite a number of problems from several topics. See the below tabl
 
       S and J will consist of letters and have length at most 50.
       The characters in J are distinct.
+      
+8. 3Sum
+
+    Given an array nums of n integers, are there elements a, b, c in nums such that a + b + c = 0? Find all unique triplets in the array which gives the sum of zero.
+
+    Note:
+
+    The solution set must not contain duplicate triplets.
+
+    Example:
+
+    Given array nums = [-1, 0, 1, 2, -1, -4],
+
+    A solution set is:
+    [
+      [-1, 0, 1],
+      [-1, -1, 2]
+    ]
+9. Pascal's Triangle
+
+      Given a non-negative integer numRows, generate the first numRows of Pascal's triangle.
+
+
+      In Pascal's triangle, each number is the sum of the two numbers directly above it.
+
+      Example:
+
+      Input: 5
+      Output:
+      [
+           [1],
+          [1,1],
+         [1,2,1],
+        [1,3,3,1],
+       [1,4,6,4,1]
+      ]
+10. Product of Array Except Self
+
+    Given an array nums of n integers where n > 1,  return an array output such that output[i] is equal to the product of all the elements of nums except nums[i].
+
+    Example:
+
+    Input:  [1,2,3,4]
+    Output: [24,12,8,6]
+    Constraint: It's guaranteed that the product of the elements of any prefix or suffix of the array (including the whole array) fits in a 32 bit integer.
+
+    Note: Please solve it without division and in O(n).
+
+    Follow up:
+    Could you solve it with constant space complexity? (The output array does not count as extra space for the purpose of space complexity analysis.)
