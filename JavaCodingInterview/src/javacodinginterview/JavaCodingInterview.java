@@ -31,6 +31,7 @@ public class JavaCodingInterview {
          The3Sum the3Sum = new The3Sum();
          PascalsTriangle pascalsTriangle = new PascalsTriangle();
          ProductofArrayExceptSelf productofArrayExceptSelf = new ProductofArrayExceptSelf();
+         LargestNumberAtLeastTwiceofOthers  largestNumberAtLeastTwiceofOthers = new LargestNumberAtLeastTwiceofOthers();
          
          
           do {
@@ -46,7 +47,7 @@ public class JavaCodingInterview {
             System.out.println("8: 3Sum");
             System.out.println("9: Pascal`s Triangle");
             System.out.println("10: Product of Array Except Self");
-            
+            System.out.println("11: Largest Number At Least Twice of Others");
             
              
             System.out.println("0: EXIT");
@@ -104,6 +105,11 @@ public class JavaCodingInterview {
                             int[] productofArrayExceptSelfN = {4,5,1,8,2};
                             productofArrayExceptSelf.productExceptSelf(productofArrayExceptSelfN);
                             productofArrayExceptSelf.productExceptSelf2(productofArrayExceptSelfN);
+                            break;
+                        case 11:
+                            //int[] largestNumberAtLeastTwiceofOthersN = {3, 6, 1, 0};
+                            int[] largestNumberAtLeastTwiceofOthersN = {1, 2, 3, 4};
+                            largestNumberAtLeastTwiceofOthers.dominantIndex(largestNumberAtLeastTwiceofOthersN);
                             break;
                         default:
                             System.exit(0);
