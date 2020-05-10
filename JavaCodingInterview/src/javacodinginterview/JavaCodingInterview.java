@@ -33,6 +33,7 @@ public class JavaCodingInterview {
          ProductofArrayExceptSelf productofArrayExceptSelf = new ProductofArrayExceptSelf();
          LargestNumberAtLeastTwiceofOthers  largestNumberAtLeastTwiceofOthers = new LargestNumberAtLeastTwiceofOthers();
          SortanArray sortanArray = new SortanArray();
+         SubarraySumEqualsK subarraySumEquals = new SubarraySumEqualsK();
          
          
           do {
@@ -50,6 +51,7 @@ public class JavaCodingInterview {
             System.out.println("10: Product of Array Except Self");
             System.out.println("11: Largest Number At Least Twice of Others");
             System.out.println("12: Sort an Array");
+            System.out.println("13: Subarray Sum Equals K");
             
             
              
@@ -118,6 +120,13 @@ public class JavaCodingInterview {
                             int[] sortanArrayN = {5,2,3,1};
                             //sortanArrayN = {5,1,1,2,0,0};
                             sortanArray.solution(sortanArrayN);
+                            break;
+                        case 13:
+                            //int[] subarraySumEqualsN = {1,1,1};
+                            //int subarraySumEqualsK = 2;
+                            int[] subarraySumEqualsN = {4,9,8,1,2,4};
+                            int subarraySumEqualsK = 7;
+                            subarraySumEquals.solution(subarraySumEqualsN,subarraySumEqualsK);
                             break;
                         default:
                             System.exit(0);
