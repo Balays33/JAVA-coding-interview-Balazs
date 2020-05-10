@@ -32,6 +32,7 @@ public class JavaCodingInterview {
          PascalsTriangle pascalsTriangle = new PascalsTriangle();
          ProductofArrayExceptSelf productofArrayExceptSelf = new ProductofArrayExceptSelf();
          LargestNumberAtLeastTwiceofOthers  largestNumberAtLeastTwiceofOthers = new LargestNumberAtLeastTwiceofOthers();
+         SortanArray sortanArray = new SortanArray();
          
          
           do {
@@ -48,6 +49,8 @@ public class JavaCodingInterview {
             System.out.println("9: Pascal`s Triangle");
             System.out.println("10: Product of Array Except Self");
             System.out.println("11: Largest Number At Least Twice of Others");
+            System.out.println("12: Sort an Array");
+            
             
              
             System.out.println("0: EXIT");
@@ -110,6 +113,11 @@ public class JavaCodingInterview {
                             //int[] largestNumberAtLeastTwiceofOthersN = {3, 6, 1, 0};
                             int[] largestNumberAtLeastTwiceofOthersN = {1, 2, 3, 4};
                             largestNumberAtLeastTwiceofOthers.dominantIndex(largestNumberAtLeastTwiceofOthersN);
+                            break;
+                        case 12:
+                            int[] sortanArrayN = {5,2,3,1};
+                            //sortanArrayN = {5,1,1,2,0,0};
+                            sortanArray.solution(sortanArrayN);
                             break;
                         default:
                             System.exit(0);
