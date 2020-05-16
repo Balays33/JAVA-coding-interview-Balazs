@@ -34,6 +34,7 @@ public class JavaCodingInterview {
          LargestNumberAtLeastTwiceofOthers  largestNumberAtLeastTwiceofOthers = new LargestNumberAtLeastTwiceofOthers();
          SortanArray sortanArray = new SortanArray();
          SubarraySumEqualsK subarraySumEquals = new SubarraySumEqualsK();
+         TwoSumII twoSumII = new TwoSumII();
          
          
           do {
@@ -52,6 +53,8 @@ public class JavaCodingInterview {
             System.out.println("11: Largest Number At Least Twice of Others");
             System.out.println("12: Sort an Array");
             System.out.println("13: Subarray Sum Equals K");
+            System.out.println("14: Two Sum II - Input array is not sorted");
+            
             
             
              
@@ -127,6 +130,11 @@ public class JavaCodingInterview {
                             int[] subarraySumEqualsN = {4,9,8,1,2,4};
                             int subarraySumEqualsK = 7;
                             subarraySumEquals.solution(subarraySumEqualsN,subarraySumEqualsK);
+                            break;
+                        case 14:
+                            int[] twoSumNumsX = {15,7,11,2};
+                            int twoSumtargetX = 9;
+                            twoSumII.solution(twoSumNumsX, twoSumtargetX);
                             break;
                         default:
                             System.exit(0);
