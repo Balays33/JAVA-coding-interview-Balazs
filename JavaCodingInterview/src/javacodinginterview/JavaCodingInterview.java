@@ -37,7 +37,7 @@ public class JavaCodingInterview {
          TwoSumII twoSumII = new TwoSumII();
          SortColors sortColors = new SortColors();
          The4Sum the4Sum = new The4Sum(); 
-         
+         ContainerWithMostWater containerWithMostWater = new ContainerWithMostWater();
          
           do {
             System.out.println("\n Please choose which program would you like to run :");
@@ -58,6 +58,7 @@ public class JavaCodingInterview {
             System.out.println("14: Two Sum II - Input array is not sorted");
             System.out.println("15: Sort Colors");
             System.out.println("16: 4Sum");
+            System.out.println("17: ContainerWithMostWater");
             
             
             
@@ -149,6 +150,10 @@ public class JavaCodingInterview {
                             int[] the4SumN = {1, 0, -1, 0, -2, 2};
                             int the4SumT =0;
                             the4Sum.solution(the4SumN,the4SumT);
+                            break;
+                        case 17:
+                            int[] containerWithMostWaterN = {1,8,6,2,5,4,8,3,7};
+                            containerWithMostWater.Solution(containerWithMostWaterN);
                             break;
                         default:
                             System.exit(0);
