@@ -36,6 +36,7 @@ public class JavaCodingInterview {
          SubarraySumEqualsK subarraySumEquals = new SubarraySumEqualsK();
          TwoSumII twoSumII = new TwoSumII();
          SortColors sortColors = new SortColors();
+         The4Sum the4Sum = new The4Sum(); 
          
          
           do {
@@ -56,6 +57,7 @@ public class JavaCodingInterview {
             System.out.println("13: Subarray Sum Equals K");
             System.out.println("14: Two Sum II - Input array is not sorted");
             System.out.println("15: Sort Colors");
+            System.out.println("16: 4Sum");
             
             
             
@@ -142,6 +144,11 @@ public class JavaCodingInterview {
                         case 15:
                             int[] sortColorsN = {2,0,2,1,1,0};
                             sortColors.solution(sortColorsN);
+                            break;
+                        case 16:
+                            int[] the4SumN = {1, 0, -1, 0, -2, 2};
+                            int the4SumT =0;
+                            the4Sum.solution(the4SumN,the4SumT);
                             break;
                         default:
                             System.exit(0);
