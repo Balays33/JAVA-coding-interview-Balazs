@@ -330,3 +330,22 @@ I have solved quite a number of problems from several topics. See the below tabl
     A rather straight forward solution is a two-pass algorithm using counting sort.
     First, iterate the array counting number of 0's, 1's, and 2's, then overwrite array with total number of 0's, then 1's and followed by 2's.
     Could you come up with a one-pass algorithm using only constant space?
+   
+16.  4Sum
+
+      Given an array nums of n integers and an integer target, are there elements a, b, c, and d in nums such that a + b + c + d = target? Find all unique quadruplets in the array which gives the sum of target.
+
+      Note:
+
+      The solution set must not contain duplicate quadruplets.
+
+      Example:
+
+      Given array nums = [1, 0, -1, 0, -2, 2], and target = 0.
+
+      A solution set is:
+      [
+        [-1,  0, 0, 1],
+        [-2, -1, 1, 2],
+        [-2,  0, 0, 2]
+      ]
