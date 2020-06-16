@@ -39,6 +39,7 @@ public class JavaCodingInterview {
          The4Sum the4Sum = new The4Sum(); 
          ContainerWithMostWater containerWithMostWater = new ContainerWithMostWater();
          CircularArrayLoop  circularArrayLoop = new CircularArrayLoop();
+         FindtheDuplicateNumber findtheDuplicateNumber = new FindtheDuplicateNumber();
          
           do {
             System.out.println("\n Please choose which program would you like to run :");
@@ -61,6 +62,7 @@ public class JavaCodingInterview {
             System.out.println("16: 4Sum");
             System.out.println("17: ContainerWithMostWater");
             System.out.println("18: Circular Array Loop");
+            System.out.println("19: Find the Duplicate Number");
             
             
             
@@ -163,6 +165,12 @@ public class JavaCodingInterview {
                             //int[] circularArraycLoopN = {4,1,3,1,2};
                             circularArrayLoop.solution(circularArraycLoopN);
                             circularArrayLoop.circularArrayLoop(circularArraycLoopN);
+                            break;
+                        case 19:
+                            //int[] findtheDuplicateNumberN = {1,3,4,2,2};
+                            //int[] findtheDuplicateNumberN = {3,1,3,4,2};
+                            int[] findtheDuplicateNumberN = {3,1,3,4,2,4,4,2,1,6,7};
+                            findtheDuplicateNumber.solution(findtheDuplicateNumberN);
                             break;
                         default:
                             System.exit(0);
