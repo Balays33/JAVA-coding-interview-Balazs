@@ -43,6 +43,7 @@ public class JavaCodingInterview {
          FirstMissingPositive firstMissingPositive = new FirstMissingPositive();
          MaxDistToClosest maxDistToClosest = new MaxDistToClosest();
          LongestMountaininArray longestMountaininArray = new LongestMountaininArray();
+         PlusOne plusOne = new PlusOne();
          
           do {
             System.out.println("\n Please choose which program would you like to run :");
@@ -69,6 +70,7 @@ public class JavaCodingInterview {
             System.out.println("20: First Missing Positive");
             System.out.println("21: First Missing Positive");
             System.out.println("22: Longest Mountain in Array");
+            System.out.println("23: Plus One");
             
             
             
@@ -196,6 +198,11 @@ public class JavaCodingInterview {
                             //longestMountaininArray.solution(longestMountaininArrayN);
                             longestMountaininArray.MountainLongest(longestMountaininArrayN);
                             longestMountaininArray.longestMountain(longestMountaininArrayN);
+                            break;
+                        case 23:
+                            //int[] plusOneN = {1,2,3};
+                            int[] plusOneN = {4,3,2,1};
+                            plusOne.plusOne(plusOneN);
                             break;
                         default:
                             System.exit(0);
