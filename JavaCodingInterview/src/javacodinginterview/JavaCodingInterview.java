@@ -40,6 +40,9 @@ public class JavaCodingInterview {
          ContainerWithMostWater containerWithMostWater = new ContainerWithMostWater();
          CircularArrayLoop  circularArrayLoop = new CircularArrayLoop();
          FindtheDuplicateNumber findtheDuplicateNumber = new FindtheDuplicateNumber();
+         FirstMissingPositive firstMissingPositive = new FirstMissingPositive();
+         MaxDistToClosest maxDistToClosest = new MaxDistToClosest();
+         LongestMountaininArray longestMountaininArray = new LongestMountaininArray();
          
           do {
             System.out.println("\n Please choose which program would you like to run :");
@@ -63,6 +66,9 @@ public class JavaCodingInterview {
             System.out.println("17: ContainerWithMostWater");
             System.out.println("18: Circular Array Loop");
             System.out.println("19: Find the Duplicate Number");
+            System.out.println("20: First Missing Positive");
+            System.out.println("21: First Missing Positive");
+            System.out.println("22: Longest Mountain in Array");
             
             
             
@@ -171,6 +177,25 @@ public class JavaCodingInterview {
                             //int[] findtheDuplicateNumberN = {3,1,3,4,2};
                             int[] findtheDuplicateNumberN = {3,1,3,4,2,4,4,2,1,6,7};
                             findtheDuplicateNumber.solution(findtheDuplicateNumberN);
+                            break;
+                        case 20:
+                            int[] firstMissingPositiveN = {1,2,0};
+                            //int[] firstMissingPositiveN = {3,4,-1,1};
+                            //int[] firstMissingPositiveN = {7,8,9,11,12};
+                            firstMissingPositive.Solution(firstMissingPositiveN);
+                            break;
+                        case 21:
+                            //int[] maxDistToClosestN= {1,0,0,0,1,0,1};
+                            int[] maxDistToClosestN= {1,0,0,0};
+                            maxDistToClosest.solution(maxDistToClosestN);
+                            break;
+                        case 22:
+                            //int[] longestMountaininArrayN = {2,1,4,7,3,2,5};
+                            //int[] longestMountaininArrayN = {2,2,2};
+                            int[] longestMountaininArrayN = {2,2,2,3,6,7,1,2,3,4,4,3,2,1};
+                            //longestMountaininArray.solution(longestMountaininArrayN);
+                            longestMountaininArray.MountainLongest(longestMountaininArrayN);
+                            longestMountaininArray.longestMountain(longestMountaininArrayN);
                             break;
                         default:
                             System.exit(0);
