@@ -482,6 +482,8 @@ I have solved quite a number of problems from several topics. See the below tabl
      
 25. Check If It Is a Straight Line
 
+      https://gist.github.com/SuryaPratapK/472fe9638529ecfb03d15bc6cb818cf6
+
       You are given an array coordinates, coordinates[i] = [x, y], where [x, y] represents the coordinate of a point. Check if these points make a straight line in the XY plane.
 
       Example 1:
