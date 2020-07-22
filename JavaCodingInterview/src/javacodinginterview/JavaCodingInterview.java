@@ -44,6 +44,7 @@ public class JavaCodingInterview {
          MaxDistToClosest maxDistToClosest = new MaxDistToClosest();
          LongestMountaininArray longestMountaininArray = new LongestMountaininArray();
          PlusOne plusOne = new PlusOne();
+         PrisonCellsAfterNDays prisonCellsAfterNDays = new PrisonCellsAfterNDays();
          
           do {
             System.out.println("\n Please choose which program would you like to run :");
@@ -71,6 +72,7 @@ public class JavaCodingInterview {
             System.out.println("21: First Missing Positive");
             System.out.println("22: Longest Mountain in Array");
             System.out.println("23: Plus One");
+            System.out.println("24: Prison Cells After N Days");
             
             
             
@@ -203,6 +205,13 @@ public class JavaCodingInterview {
                             //int[] plusOneN = {1,2,3};
                             int[] plusOneN = {4,3,2,1};
                             plusOne.plusOne(plusOneN);
+                            break;
+                        case 24:
+                            //int[] PrisonCellsAfterNDaysN = {0,1,0,1,1,0,0,1};
+                            int[] PrisonCellsAfterNDaysN = {1,0,0,1,0,0,1,0};
+                            //int PrisonCellsAfterNDaysSZ = 7;
+                            int PrisonCellsAfterNDaysSZ = 1000000000;
+                            prisonCellsAfterNDays.solution(PrisonCellsAfterNDaysN, PrisonCellsAfterNDaysSZ);
                             break;
                         default:
                             System.exit(0);
