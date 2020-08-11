@@ -45,6 +45,9 @@ public class JavaCodingInterview {
          LongestMountaininArray longestMountaininArray = new LongestMountaininArray();
          PlusOne plusOne = new PlusOne();
          PrisonCellsAfterNDays prisonCellsAfterNDays = new PrisonCellsAfterNDays();
+         CheckIfItIsaStraightLine checkIfItIsaStraightLine = new CheckIfItIsaStraightLine();
+         FriendsOfAppropriateAges friendsOfAppropriateAges = new FriendsOfAppropriateAges();
+         MonotonicArray monotonicArray = new MonotonicArray();
          
           do {
             System.out.println("\n Please choose which program would you like to run :");
@@ -73,6 +76,9 @@ public class JavaCodingInterview {
             System.out.println("22: Longest Mountain in Array");
             System.out.println("23: Plus One");
             System.out.println("24: Prison Cells After N Days");
+            System.out.println("25: Check If It Is a Straight Line");
+            System.out.println("26: Friends Of Appropriate Ages");
+            System.out.println("27: MonotonicArray");
             
             
             
@@ -212,6 +218,24 @@ public class JavaCodingInterview {
                             //int PrisonCellsAfterNDaysSZ = 7;
                             int PrisonCellsAfterNDaysSZ = 1000000000;
                             prisonCellsAfterNDays.solution(PrisonCellsAfterNDaysN, PrisonCellsAfterNDaysSZ);
+                            break;
+                        case 25:
+                            int[][] checkIfItIsaStraightLineN = {{1,2},{2,3},{3,4},{4,5},{5,6},{6,7}};
+                            //int[][] checkIfItIsaStraightLineN = {{1,1},{2,2},{3,4},{4,5},{5,6},{7,7}};
+                            checkIfItIsaStraightLine.solution(checkIfItIsaStraightLineN);
+                            break;
+                        case 26:
+                            //int[] friendsOfAppropriateAgesN = {16,16};
+                            int[] friendsOfAppropriateAgesN = {16,17,18};
+                            friendsOfAppropriateAges.Solution(friendsOfAppropriateAgesN);
+                            break;
+                        case 27:
+                            //int[] monotonicArrayN = {1,2,2,3};
+                            //int[] monotonicArrayN = {6,5,4,4};
+                            //int[] monotonicArrayN = {1,3,2};
+                            //int[] monotonicArrayN = {1,2,3,4,5};
+                            int[] monotonicArrayN = {1,1,1};
+                            monotonicArray.isMonotonic(monotonicArrayN);
                             break;
                         default:
                             System.exit(0);
