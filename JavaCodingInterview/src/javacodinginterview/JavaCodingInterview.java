@@ -48,6 +48,7 @@ public class JavaCodingInterview {
          CheckIfItIsaStraightLine checkIfItIsaStraightLine = new CheckIfItIsaStraightLine();
          FriendsOfAppropriateAges friendsOfAppropriateAges = new FriendsOfAppropriateAges();
          MonotonicArray monotonicArray = new MonotonicArray();
+         ToeplitzMatrix toeplitzMatrix = new ToeplitzMatrix();
          
           do {
             System.out.println("\n Please choose which program would you like to run :");
@@ -79,6 +80,8 @@ public class JavaCodingInterview {
             System.out.println("25: Check If It Is a Straight Line");
             System.out.println("26: Friends Of Appropriate Ages");
             System.out.println("27: MonotonicArray");
+            System.out.println("28: Toeplitz Matrix");
+             
             
             
             
@@ -237,6 +240,33 @@ public class JavaCodingInterview {
                             int[] monotonicArrayN = {1,1,1};
                             monotonicArray.isMonotonic(monotonicArrayN);
                             break;
+                        case 28:
+                            /*
+                            int[][] toeplitzMatrixN = {
+                                {1,2,3,4},
+                                {5,1,4,3},
+                                {9,5,1,2}
+                            };
+                            */
+                            /*
+                            int[][] toeplitzMatrixN = {
+                                {1,2,3,4},
+                                {5,1,2,3},
+                                {9,5,1,2}
+                            };
+                            */
+                            /*
+                            int[][] toeplitzMatrixN = {
+                                {1,2},
+                                {1,2}
+                            };
+                            */
+                            int[][] toeplitzMatrixN = {
+                                {1,1,1,1},
+                                {1,1,4,1},
+                                {1,1,1,1}
+                            };
+                            toeplitzMatrix.Solution(toeplitzMatrixN);
                         default:
                             System.exit(0);
                     }
