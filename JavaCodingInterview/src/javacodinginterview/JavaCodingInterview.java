@@ -49,6 +49,7 @@ public class JavaCodingInterview {
          FriendsOfAppropriateAges friendsOfAppropriateAges = new FriendsOfAppropriateAges();
          MonotonicArray monotonicArray = new MonotonicArray();
          ToeplitzMatrix toeplitzMatrix = new ToeplitzMatrix();
+         RotateArray rotateArray = new RotateArray();
          
           do {
             System.out.println("\n Please choose which program would you like to run :");
@@ -81,6 +82,8 @@ public class JavaCodingInterview {
             System.out.println("26: Friends Of Appropriate Ages");
             System.out.println("27: MonotonicArray");
             System.out.println("28: Toeplitz Matrix");
+            System.out.println("29: Rotate Array");
+            
              
             
             
@@ -267,6 +270,12 @@ public class JavaCodingInterview {
                                 {1,1,1,1}
                             };
                             toeplitzMatrix.Solution(toeplitzMatrixN);
+                            break;
+                        case 29:
+                            int[] rotateArrayN = {1,2,3,4,5,6,7};
+                            int rotateArrayS = 3;
+                            rotateArray.Solution(rotateArrayN, rotateArrayS);
+                            break;
                         default:
                             System.exit(0);
                     }
