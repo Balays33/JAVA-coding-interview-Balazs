@@ -42,6 +42,37 @@ public class RotateArray {
         
         Collections.rotate(help, k);
         System.out.println("\n Rotated List: " + help);
+        
+        
+        System.out.println("\n " );
+        for(int i=0;i<k;i++){
+            for(int j=0;j<nums.length;j++){
+                if (j==0){
+                    helpnums[j] = nums[nums.length-1];
+                } 
+                if (j>0){
+                    helpnums[j] = nums[j-1];
+                }    
+                 
+            }
+            for(int x=0;x<nums.length;x++){
+                nums[x] = helpnums[x];
+            }
+        }
+        System.out.println("\n version 2:");
+        /*
+        for(int i=0;i<nums.length;i++){
+            System.out.print(" "+nums[i]);
+        }
+    */
+        runtest(nums);
+        
+    }
+    
+    public void runtest(int nums[]){
+        for(int i=0;i<nums.length;i++){
+            System.out.print(" "+nums[i]);
+        }
     }
     
 }
