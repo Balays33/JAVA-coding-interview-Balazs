@@ -50,6 +50,11 @@ public class JavaCodingInterview {
          MonotonicArray monotonicArray = new MonotonicArray();
          ToeplitzMatrix toeplitzMatrix = new ToeplitzMatrix();
          RotateArray rotateArray = new RotateArray();
+         LongestSubstringWithoutRepeatingCharacters longestSubstringWithoutRepeatingCharacters = new LongestSubstringWithoutRepeatingCharacters();
+         PGD_Bootcamp pgd_Bootcamp = new PGD_Bootcamp(); 
+         Gyakorlas gyak = new Gyakorlas();
+         FizzBuzz fizzBuzz = new FizzBuzz();
+         
          
           do {
             System.out.println("\n Please choose which program would you like to run :");
@@ -83,7 +88,11 @@ public class JavaCodingInterview {
             System.out.println("27: MonotonicArray");
             System.out.println("28: Toeplitz Matrix");
             System.out.println("29: Rotate Array");
-            
+            System.out.println("30: LongestSubstringWithoutRepeatingCharacters");
+            System.out.println("31: PGD_Bootcamp");
+            System.out.println("32: TESZT Gyakorlas");
+            System.out.println("33: Fizz Buzz");
+           
              
             
             
@@ -275,6 +284,22 @@ public class JavaCodingInterview {
                             int[] rotateArrayN = {1,2,3,4,5,6,7};
                             int rotateArrayS = 3;
                             rotateArray.Solution(rotateArrayN, rotateArrayS);
+                            break;
+                            
+                        case 30:
+                            String s = "abcabcbb";
+                            longestSubstringWithoutRepeatingCharacters.Solutin(s);
+                            break;
+                        case 31:
+                           //pgd_Bootcamp.
+                            break;
+                        case 32:
+                            //gyak.kiir();
+                            gyak.longR();
+                            break;
+                        case 33:
+                            int fizzBuzzN = 15;
+                            fizzBuzz.fizzBuzz(fizzBuzzN);
                             break;
                         default:
                             System.exit(0);
