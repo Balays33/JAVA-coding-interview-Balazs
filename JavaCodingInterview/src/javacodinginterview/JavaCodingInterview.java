@@ -54,6 +54,8 @@ public class JavaCodingInterview {
          PGD_Bootcamp pgd_Bootcamp = new PGD_Bootcamp(); 
          Gyakorlas gyak = new Gyakorlas();
          FizzBuzz fizzBuzz = new FizzBuzz();
+         UniqueEmailAddresses uniqueEmailAddresses = new UniqueEmailAddresses();
+         ReverseInteger reverseInteger = new ReverseInteger();
          
          
           do {
@@ -92,6 +94,10 @@ public class JavaCodingInterview {
             System.out.println("31: PGD_Bootcamp");
             System.out.println("32: TESZT Gyakorlas");
             System.out.println("33: Fizz Buzz");
+            System.out.println("34: Unique Email Addresses");
+            System.out.println("35: Reverse Integer");
+            
+            
            
              
             
@@ -300,6 +306,23 @@ public class JavaCodingInterview {
                         case 33:
                             int fizzBuzzN = 15;
                             fizzBuzz.fizzBuzz(fizzBuzzN);
+                            break;
+                        case 34:
+                            String[] inputemail = new String[]{"test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"};
+                            uniqueEmailAddresses.numUniqueEmails(inputemail);
+                            break;
+                        case 35:
+                            int reverseIntegerN =0;
+                            System.out.println("Please give me a integer : ");
+                            Scanner reverseI = new Scanner(System.in);
+                            if (reverseI.hasNextInt()) {
+                                reverseIntegerN = reverseI.nextInt();
+                            } else {
+                                System.out.println("It is not integer");
+                            }
+                            //int reverseIntegerN = reverseI.nextInt();
+                            //int reverseIntegerN = 123;
+                            reverseInteger.solution(reverseIntegerN);
                             break;
                         default:
                             System.exit(0);
