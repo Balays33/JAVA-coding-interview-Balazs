@@ -56,6 +56,7 @@ public class JavaCodingInterview {
          FizzBuzz fizzBuzz = new FizzBuzz();
          UniqueEmailAddresses uniqueEmailAddresses = new UniqueEmailAddresses();
          ReverseInteger reverseInteger = new ReverseInteger();
+         RomantoInteger romantoInteger = new RomantoInteger();
          
          
           do {
@@ -96,6 +97,8 @@ public class JavaCodingInterview {
             System.out.println("33: Fizz Buzz");
             System.out.println("34: Unique Email Addresses");
             System.out.println("35: Reverse Integer");
+            System.out.println("36: Roman to Integer");
+            
             
             
            
@@ -323,6 +326,10 @@ public class JavaCodingInterview {
                             //int reverseIntegerN = reverseI.nextInt();
                             //int reverseIntegerN = 123;
                             reverseInteger.solution(reverseIntegerN);
+                            break;
+                        case 36:
+                            String romantoIntegerS = "IIIi";
+                            romantoInteger.romanToInt(romantoIntegerS);
                             break;
                         default:
                             System.exit(0);
