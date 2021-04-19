@@ -74,3 +74,85 @@ public class RomantoInteger {
     }
     
 }
+
+class Solution {
+    public int romanToInt(String s) {
+        char[] string = s.toCharArray();
+        int finalNum = 0;
+        for(int i = 0; i < string.length; i++){
+            
+            
+            if(string[i] == 'I'){
+                if(i + 1 != string.length){
+                    if(string[i + 1] == 'V'){
+                    finalNum += 4;
+                    i++;
+                    continue;
+                    }
+                    if(string[i + 1] == 'X'){
+                        finalNum += 9;
+                        i++;
+                        continue;
+                    }
+                }
+                finalNum += 1;
+            }
+
+            else if(string[i] == 'V'){
+
+                finalNum += 5;
+            }
+
+            else if(string[i] == 'X'){
+                if(i + 1 != string.length){
+                    if(string[i + 1] == 'L'){
+                        finalNum += 40;
+                        i++;
+                        continue;
+                    }
+                    if(string[i + 1] == 'C'){
+                        finalNum += 90;
+                        i++;
+                        continue;
+                    }
+                }
+                finalNum += 10; 
+            }
+
+            else if(string[i] == 'L'){
+
+                finalNum += 50;
+            }
+
+            else if(string[i] == 'C'){
+                if(i + 1 != string.length){
+                    if(string[i + 1] == 'D'){
+                        finalNum += 400;
+                        i++;
+                        continue;
+                    }
+                    if(string[i + 1] == 'M'){
+                        finalNum += 900;
+                        i++;
+                        continue;
+                    }
+                }
+                finalNum += 100;
+            }
+
+            else if(string[i] == 'D'){
+
+                finalNum += 500;
+            }
+
+            else if(string[i] == 'M'){
+
+                finalNum += 1000;
+            }
+        }
+            
+        
+            
+        return finalNum;
+    }
+}
