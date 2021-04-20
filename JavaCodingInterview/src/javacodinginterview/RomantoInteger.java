@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package javacodinginterview;
+import java.util.*;
 
 /**
  *
@@ -30,11 +31,12 @@ X can be placed before L (50) and C (100) to make 40 and 90.
 C can be placed before D (500) and M (1000) to make 400 and 900.
 Given a roman numeral, convert it to an integer.
  */
+/*
 public class RomantoInteger {
     public int result;
     private String[] romanNumbers = {"I","V","X","L","C","D","M","IV","IX"};
     private char[] romanNumbersChar = {'I', 'V', 'X', 'L', 'C', 'D', 'M'};  
-    private int[] value =           {1,  5, 10,  50, 100,500,1000};
+    private int[] value =              {1,  5,   10,  50,  100,  500, 1000};
     private char[] negyKilenc = {'I'};
     
      public int romanToInt(String s) {
@@ -58,24 +60,19 @@ public class RomantoInteger {
              }
              
             }
-            /*
-        I can be placed before V (5) and X (10) to make 4 and 9. 
-        X can be placed before L (50) and C (100) to make 40 and 90. 
-        C can be placed before D (500) and M (1000) to make 400 and 900.
-         */
+           
        
-            for(int i=0;i<s.length()-1;i++){
-                for(int j=i+1;j<s.length();j++){
-                
-                }
+            for(int i=s.length()-1;i>=0;i--){
+               System.out.println(s.charAt(i));
+               result += value[i];
             }
-            
+         System.out.println(" result: "+result);   
          return result;
     }
     
 }
-
-class Solution {
+*/
+public class RomantoInteger {
     public int romanToInt(String s) {
         char[] string = s.toCharArray();
         int finalNum = 0;
@@ -152,7 +149,7 @@ class Solution {
         }
             
         
-            
+        System.out.println(" result: "+finalNum);    
         return finalNum;
     }
 }

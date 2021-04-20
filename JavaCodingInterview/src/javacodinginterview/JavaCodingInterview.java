@@ -328,7 +328,9 @@ public class JavaCodingInterview {
                             reverseInteger.solution(reverseIntegerN);
                             break;
                         case 36:
-                            String romantoIntegerS = "IIIi";
+                            String romantoIntegerS = "LVIII";
+                            //String romantoIntegerS = "IIIi";
+                            //romantoInteger.romanToInt(romantoIntegerS);
                             romantoInteger.romanToInt(romantoIntegerS);
                             break;
                         default:
