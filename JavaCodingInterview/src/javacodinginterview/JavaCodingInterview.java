@@ -57,6 +57,7 @@ public class JavaCodingInterview {
          UniqueEmailAddresses uniqueEmailAddresses = new UniqueEmailAddresses();
          ReverseInteger reverseInteger = new ReverseInteger();
          RomantoInteger romantoInteger = new RomantoInteger();
+         ValidPalindrome validPalindrome = new ValidPalindrome();
          
          
           do {
@@ -98,6 +99,7 @@ public class JavaCodingInterview {
             System.out.println("34: Unique Email Addresses");
             System.out.println("35: Reverse Integer");
             System.out.println("36: Roman to Integer");
+            System.out.println("37: Valid Palindrome");
             
             
             
@@ -332,6 +334,11 @@ public class JavaCodingInterview {
                             //String romantoIntegerS = "IIIi";
                             //romantoInteger.romanToInt(romantoIntegerS);
                             romantoInteger.romanToInt(romantoIntegerS);
+                            break;
+                        case 37:
+                            //String validPalindromeS =  "A man, a plan, a canal: Panama";
+                            String validPalindromeS =  "Are we not pure? “No, sir!” Panama’s moody Noriega brags. “It is garbage!” Irony dooms a man—a prisoner up to new era";
+                            validPalindrome.isPalindrome(validPalindromeS);
                             break;
                         default:
                             System.exit(0);
