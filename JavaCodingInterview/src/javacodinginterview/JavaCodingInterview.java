@@ -58,7 +58,9 @@ public class JavaCodingInterview {
          ReverseInteger reverseInteger = new ReverseInteger();
          RomantoInteger romantoInteger = new RomantoInteger();
          ValidPalindrome validPalindrome = new ValidPalindrome();
-         
+         ReverseString reverseString = new ReverseString();
+         LicenseKeyFormatting licenseKeyFormatting = new LicenseKeyFormatting();
+         BackspaceStringCompare backspaceStringCompare = new BackspaceStringCompare();
          
           do {
             System.out.println("\n Please choose which program would you like to run :");
@@ -100,14 +102,9 @@ public class JavaCodingInterview {
             System.out.println("35: Reverse Integer");
             System.out.println("36: Roman to Integer");
             System.out.println("37: Valid Palindrome");
-            
-            
-            
-           
-             
-            
-            
-            
+            System.out.println("38: Reverse String");
+            System.out.println("39: License Key Formatting");
+            System.out.println("40: Backspace String Compare");
             
              
             System.out.println("0: EXIT");
@@ -303,10 +300,12 @@ public class JavaCodingInterview {
                             break;
                         case 31:
                            //pgd_Bootcamp.
+                            String PGDname = "Balazs";
+                            pgd_Bootcamp.kiirname(PGDname);
                             break;
                         case 32:
                             //gyak.kiir();
-                            gyak.longR();
+                            gyak.printout();
                             break;
                         case 33:
                             int fizzBuzzN = 15;
@@ -339,6 +338,24 @@ public class JavaCodingInterview {
                             //String validPalindromeS =  "A man, a plan, a canal: Panama";
                             String validPalindromeS =  "Are we not pure? “No, sir!” Panama’s moody Noriega brags. “It is garbage!” Irony dooms a man—a prisoner up to new era";
                             validPalindrome.isPalindrome(validPalindromeS);
+                            break;
+                        case 38:
+                            char reverseStringS[] =  {'h','e','l','l','o'};
+                            reverseString.reverseString(reverseStringS);
+                            break;
+                        case 39:
+                            
+                            //String licenseKeyFormattingS = "5F3Z-2e-9-w";
+                            //int licenseKeyFormattingN = 4;
+                            String licenseKeyFormattingS = "2-5g-3-J";
+                            int licenseKeyFormattingN = 2;
+                            licenseKeyFormatting.licenseKeyFormatting(licenseKeyFormattingS, licenseKeyFormattingN);
+                            licenseKeyFormatting.licenseKeyFormattingVERSION2(licenseKeyFormattingS, licenseKeyFormattingN);
+                            break;
+                        case 40:
+                            String backspaceStringCompare1 = "ab#c";
+                            String backspaceStringCompare2 = "ad#c";
+                            backspaceStringCompare.backspaceCompare(backspaceStringCompare1, backspaceStringCompare2);
                             break;
                         default:
                             System.exit(0);
